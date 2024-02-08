@@ -27,6 +27,46 @@
 // console.log(arr)
 
 // reduce
-const numbers = [1, 2, 3, 4, 5];
-const sum = numbers.reduce((acc, item)=>acc + item, 5)
-console.log(sum)
+// const numbers = [1, 2, 3, 4, 5];
+// const sum = numbers.reduce((acc, item)=>acc + item, 5)
+// console.log(sum)
+//
+//
+// const users = [
+//     {name: "John", age: 30, average: 7},
+//     {name: "Jane", age: 25, average: 8},
+//     {name: "Jim", age: 35, average: 6}
+// ]
+//
+// const statics = users.reduce((acc, user)=>{
+//     acc.ages.push(user.age)
+//     acc.averages.push(user.average)
+//     return acc
+// }, {ages: [], averages: []})
+//
+// console.log(statics)
+
+// reverse
+// const numbers = [1, 3, "3", "hello", 5];
+// console.log(numbers.reverse())
+
+// every
+// const users = [ "John", "Jane", "Jimmy"];
+// const allNames = users.every((name)=> name.length > 3)
+// console.log(allNames)
+
+// some
+// const hasJimmy = users.some((name)=> name === "Jimmy")
+// console.log(hasJimmy)
+
+// const users = [
+//     {name: "John", age: 30, average: 7},
+//     {name: "Jane", age: 25, average: 8},
+//     {name: "Jim", age: 35, average: 6}
+// ]
+
+// const hasJane = users.some((user)=> user.name === "Jane")
+// const hasJane2 = users.includes({name: "Jane", age: 25, average: 8})
+// console.log(hasJane)
+// console.log(hasJane2)
+
