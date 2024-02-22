@@ -58,7 +58,7 @@
 // false, 0, null, undefined, NaN, "" -> false
 
 // console.log(false || 1)
-           //true || false
+// true || false
 // console.log(1 || NaN)
 
 // && AND
@@ -66,7 +66,7 @@
 // console.log(false && true)
 // console.log(true && true)
 
-         // false && true
+// false && true
 // console.log(0 && 1)
 
 // const isMarried = true
@@ -77,7 +77,6 @@
 // const shouldHaveBonus = (isMarried && hasChildren) || (personAge > 21 && experience > 1)
 //
 // console.log("shouldHaveBonus", shouldHaveBonus)
-
 
 // ! NOT
 // console.log(!false)
@@ -112,19 +111,19 @@
 // console.log(1 + Number.parseInt("111a"))
 // console.log(1 + Number.parseFloat("111.4a"))
 
-console.log(5 + "10");  // "510"
-console.log(5 - "10");  // -5
-console.log(5 * "10");  // 50
-console.log(5 / "10");  // 0.5
-console.log(5 + null);  // 5
-console.log(5 + undefined);  // NaN
+console.log(`${5}10`); // "510"
+console.log(5 - '10'); // -5
+console.log(5 * '10'); // 50
+console.log(5 / '10'); // 0.5
+console.log(5 + null); // 5
+console.log(5 + undefined); // NaN
 
-console.log(5 + true);  // 6
-console.log(5 - false);  // 5
-console.log(5 * true);  // 5
-console.log(5 / false);  // Infinity
+console.log(5 + true); // 6
+console.log(5 - false); // 5
+console.log(5 * true); // 5
+console.log(5 / false); // Infinity
 
-console.log("5" + true);  // "5true"
-console.log("5" - false);  // 5
-console.log("5" * false);  // 0
-console.log("5" / true);  // 5
+console.log(`5${true}`); // "5true"
+console.log('5' - false); // 5
+console.log('5' * false); // 0
+console.log('5' / true); // 5

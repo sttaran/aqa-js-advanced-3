@@ -1,4 +1,4 @@
-const fruits = ["apple", "pineapple", "banana"]
+const fruits = ['apple', 'pineapple', 'banana'];
 
 // for (let i = 0; i < fruits.length; i++) {
 //     const item = fruits[i]

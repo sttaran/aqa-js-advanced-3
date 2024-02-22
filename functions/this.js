@@ -26,7 +26,6 @@
 // greetFunction("Hello")
 // greetFunction("Hi")
 
-
 // const person = {
 //     name: 'Alice',
 //     greet: () => {
@@ -35,17 +34,17 @@
 // };
 
 const person = {
-    firstName: 'John',
-    lastName: 'Doe',
-    fullName: function() {
-        return `${this.firstName} ${this.lastName}`;
-    },
-    // Стрілочна функція не має власного контексту this, вона використовує контекст зовнішнього об'єкту (person)
-    printName: function() {
-        (()=>{
-            console.log(this.fullName());
-        })()
-    }
+  firstName: 'John',
+  lastName: 'Doe',
+  fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  },
+  // Стрілочна функція не має власного контексту this, вона використовує контекст зовнішнього об'єкту (person)
+  printName() {
+    (() => {
+      console.log(this.fullName());
+    })();
+  },
 };
 
 person.printName(); // Виведе "John Doe" після затримки 1 секунда

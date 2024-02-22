@@ -2,7 +2,7 @@
 // const originalArray = [1, 2, 3, 4, 5];
 // const copiedArray = originalArray.slice();
 
-//concat
+// concat
 // const originalArray = [1, 2, 3, 4, 5];
 // const copiedArray = [].concat(originalArray);
 // const copiedArray = originalArray.concat([]);

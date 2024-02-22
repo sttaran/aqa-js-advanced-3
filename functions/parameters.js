@@ -21,7 +21,6 @@
 //
 // console.log(calculateSum(1,2,5,4))
 
-
 // const printUserInfo = (age, name, ...rest) => {
 //     console.log("User age", age)
 //     console.log("User name", name)

@@ -1,5 +1,3 @@
-
-
 // function hof (cb){
 //     console.log("High Order Function")
 //     cb()

@@ -5,7 +5,6 @@
 //     console.log(element * 2)
 // });
 
-
 // filter
 // const numbers = [1, 2, 3, 4, 5];
 //
@@ -69,4 +68,3 @@
 // const hasJane2 = users.includes({name: "Jane", age: 25, average: 8})
 // console.log(hasJane)
 // console.log(hasJane2)
-

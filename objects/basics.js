@@ -31,8 +31,7 @@ const user = {
 console.log(user.courses)
 user.courses = ["QA Manual", "QA Auto"]
 console.log(user.courses)
-console.log(user)*/
-
+console.log(user) */
 
 // const user = {
 //     name: "Alice",
@@ -62,17 +61,15 @@ console.log(user)*/
 //     age: 22
 // }
 
-
-
 const user = {
-    name: "ALice",
-    age: 22,
-    "Average grade": 78
-}
+  name: 'ALice',
+  age: 22,
+  'Average grade': 78,
+};
 
-console.log(user["Average grade"])
+console.log(user['Average grade']);
 
-const propertyName = "name"
+const propertyName = 'name';
 
-console.log(user.name)
-console.log(user[propertyName])
+console.log(user.name);
+console.log(user[propertyName]);

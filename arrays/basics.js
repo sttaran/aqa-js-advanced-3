@@ -1,4 +1,3 @@
-
 // const fruits = new Array()
 // const fruits = ["apple", "pineapple", "banana", 111, true, "Hello"]
 
@@ -18,15 +17,13 @@
 //
 // console.log(fruits)
 
-
-
 const matrix = [
-    [
-        "banana", "apple"
-    ],
-    [
-       "lemon", "pineapple"
-    ]
+  [
+    'banana', 'apple',
+  ],
+  [
+    'lemon', 'pineapple',
+  ],
 ];
 
 // console.log(matrix[0][1])

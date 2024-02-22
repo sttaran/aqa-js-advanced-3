@@ -20,21 +20,21 @@
 
 // OOP підхід
 class Calculator {
-    constructor() {
-        this.PI = Math.PI
-    }
+  constructor() {
+    this.PI = Math.PI;
+  }
 
-    sum(a, b) {
-        return a + b;
-    }
+  sum(a, b) {
+    return a + b;
+  }
 
-    double(num) {
-        return num * 2;
-    }
+  double(num) {
+    return num * 2;
+  }
 }
 
 const calc = new Calculator();
 const sum = calc.sum(5, 3);
 const doubled = calc.double(sum);
 
-console.log(`Aaaa ${doubled}`)
+console.log(`Aaaa ${doubled}`);

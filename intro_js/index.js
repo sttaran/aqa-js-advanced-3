@@ -30,12 +30,12 @@
 // isMarried = "hello"
 
 // undefined
-const name = undefined
+const name = undefined;
 // name = 123
-let age
+let age;
 
-console.log("name", name)
-console.log("age", age)
+console.log('name', name);
+console.log('age', age);
 
 // Null
-const firstname = null
+const firstname = null;

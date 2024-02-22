@@ -1,4 +1,3 @@
-
 // const isMarried = false
 //
 // if (isMarried){
@@ -33,16 +32,15 @@
 // console.log(accessType)
 // // console.log(accessType2)
 
+const userAge = 11;
+const name = 'Pe';
 
-const userAge = 11
-const name = "Pe"
-
-if (userAge >= 18){
-    if (name.length > 3){
-        console.log("Adult person with long name")
-    }else {
-        console.log("Adult person with short name")
-    }
-}else {
-    console.log("NOT Adult")
+if (userAge >= 18) {
+  if (name.length > 3) {
+    console.log('Adult person with long name');
+  } else {
+    console.log('Adult person with short name');
+  }
+} else {
+  console.log('NOT Adult');
 }
