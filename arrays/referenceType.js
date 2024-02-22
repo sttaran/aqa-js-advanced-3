@@ -7,7 +7,6 @@
 // console.log("a", a)
 // console.log("b", b)
 
-
 // const fruits = ["apple", "pineapple", "banana"]
 //
 // const freshFruits = fruits

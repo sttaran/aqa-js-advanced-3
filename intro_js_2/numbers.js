@@ -28,6 +28,6 @@
 //
 // console.log(num1 + num2)
 
-const num1  = -10
-const num2 = -num1
-console.log(num2)
+const num1 = -10;
+const num2 = -num1;
+console.log(num2);

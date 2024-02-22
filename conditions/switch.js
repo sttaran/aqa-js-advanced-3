@@ -1,5 +1,4 @@
-
-const userAge = 11
+const userAge = 11;
 
 // switch (userAge){
 //     case 10: // userAge === 10
@@ -40,29 +39,29 @@ const userAge = 11
 //         console.log("Nothing for you today. Good luck next time")
 // }
 
-const isMarried = true
-const yearsInCompany = 5
+const isMarried = true;
+const yearsInCompany = 5;
 
-switch (true){
-    case isMarried && yearsInCompany > 5:
-        console.log("Congrats and 1000$")
-        break
-    case isMarried && yearsInCompany > 2:
-        console.log("Congrats and 500$")
-        break
-    case isMarried && yearsInCompany > 1:
-        console.log("Congrats and 100$")
-        break
-    default:
-        console.log("Congrats")
+switch (true) {
+  case isMarried && yearsInCompany > 5:
+    console.log('Congrats and 1000$');
+    break;
+  case isMarried && yearsInCompany > 2:
+    console.log('Congrats and 500$');
+    break;
+  case isMarried && yearsInCompany > 1:
+    console.log('Congrats and 100$');
+    break;
+  default:
+    console.log('Congrats');
 }
 
-if(isMarried && yearsInCompany > 5){
-    console.log("Congrats and 1000$")
-}else if(isMarried && yearsInCompany > 2){
-    console.log("Congrats and 500$")
-}else if(isMarried && yearsInCompany > 1){
-    console.log("Congrats and 100$")
-}else{
-    console.log("Congrats")
+if (isMarried && yearsInCompany > 5) {
+  console.log('Congrats and 1000$');
+} else if (isMarried && yearsInCompany > 2) {
+  console.log('Congrats and 500$');
+} else if (isMarried && yearsInCompany > 1) {
+  console.log('Congrats and 100$');
+} else {
+  console.log('Congrats');
 }

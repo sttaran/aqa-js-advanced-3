@@ -1,4 +1,3 @@
-
 // function makeCounter (startValue) {
 //     let value = startValue
 //
@@ -20,16 +19,15 @@
 // count()
 
 function multiplier(factor) {
-    return function(x) {
-        return x * factor;
-    };
+  return function (x) {
+    return x * factor;
+  };
 }
 
 // const double = multiplier(2);
 // console.log(double(5)); // Виведе 10
 // console.log(double(7)); // Виведе 14
 // console.log(double(86)); // Виведе 172
-
 
 const make5times = multiplier(5);
 console.log(make5times(5)); // Виведе 25

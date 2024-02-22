@@ -5,4 +5,3 @@
 //
 // age = 90
 // console.log("Person age:", age)
-

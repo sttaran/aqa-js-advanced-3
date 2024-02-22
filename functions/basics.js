@@ -16,13 +16,13 @@
 //     return sum
 // }
 
-function calculateSum(num1, num2){
-    // console.log(`${num1} + ${num2} = ${num1 + num2}`)
-    const sum  =  num1 + num2
-
-    console.log("Before return")
+function calculateSum(num1, num2) {
+  // console.log(`${num1} + ${num2} = ${num1 + num2}`)
+  const sum = num1 + num2;
+  console.log(sum);
+  console.log('Before return');
 }
 
-const result = calculateSum(1,2)
+const result = calculateSum(1, 2);
 // const result = 3
-console.log("result", result)
+console.log('result', result);

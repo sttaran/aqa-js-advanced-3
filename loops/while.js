@@ -1,4 +1,3 @@
-
 // let index = 0
 
 // while (index < 10) { // attempts < 5 && !mail
@@ -15,7 +14,6 @@
 //     index++
 // }
 
-
 // let index = 0
 //
 // while (index > 0){
@@ -25,4 +23,3 @@
 // do {
 //     console.log(index)
 // } while (index > 0)
-

@@ -1,10 +1,8 @@
-
 // split & join
 // const sentence = "Це речення має кілька слів";
 // const words = sentence.split(" ");
 // console.log(words); // ["Це", "речення", "має", "кілька", "слів"]
 // console.log(words.join(""))
-
 
 // indexOf
 // const numbers = [10, 20, 30, 40, 50];
@@ -20,7 +18,7 @@
 // stack.push("hello", "JS!!!!")
 // console.log(stack)
 
-//pop
+// pop
 // const stack = [1, 2, 3, 4];
 // const poppedValue = stack.pop();
 // console.log(poppedValue); // 4
@@ -43,7 +41,6 @@
 // const newNumbers = numbers.slice(1)
 // console.log("numbers", numbers)
 // console.log("newNumbers", newNumbers)
-
 
 // splice
 // const colors = ["червоний", "зелений", "синій"];

@@ -32,7 +32,6 @@
 // }
 //
 
-
 //
 // function printUserInfo1(name, age, email = 'unknown') {
 //     console.log(`User "${name}" is ${age} y.o. and has "${email}" email address.`);
@@ -70,7 +69,6 @@
 // console.log(city); // "New York"
 // console.log(country); // "USA"
 
-
 // const numbers = [1, 2, 3, 4];
 //
 // const [first, second, third, hello] = numbers;
@@ -91,15 +89,14 @@
 //
 // [a, b] = [b, a];
 
-
 const person = {
-    name: "John",
-    age: 30,
-    address: {
-        city: "New York",
-        country: "USA"
-    }
+  name: 'John',
+  age: 30,
+  address: {
+    city: 'New York',
+    country: 'USA',
+  },
 };
 
-const {name, ...rest} = person
-console.log(rest)
+const { name, ...rest } = person;
+console.log(rest);
