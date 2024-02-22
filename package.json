@@ -10,7 +10,7 @@
     "start": "node intro_js/file2.js",
     "format": "npx prettier . --write",
     "lint": "npx eslint --fix .",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "author": "Stanislav Taran",
   "license": "ISC",
